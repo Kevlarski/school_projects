@@ -6,3 +6,5 @@ Various assignments and projects from the following classes:
 
 Introduction to Programming (Java)
 HTML5 Programming
+OOP Java
+Data Structures & Algorithms
