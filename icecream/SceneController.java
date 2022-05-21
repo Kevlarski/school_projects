@@ -99,7 +99,8 @@ public class SceneController implements Initializable {
           order = scoop;
           ordTax = order*taxPer;
           total = order+ordTax;
-        }
+        }//end if-else
+
         //Alert box displaying order details
         alert.setHeight(222.0);
         alert.setTitle("Your Order");
@@ -108,10 +109,11 @@ public class SceneController implements Initializable {
                 +df.format(ordTax)+"\nTotal: $"+df.format(total));
         alert.showAndWait();
         
-    }
+    }//end calCost
     
     //Method to save current choices
     public void save(){
+
         //Using BufferedWiter to create .txt file based on selections    
         try (BufferedWriter bw = new BufferedWriter(new PrintWriter("ice_cream.txt"))) {
             if(rbChoc.isSelected()){
@@ -143,11 +145,11 @@ public class SceneController implements Initializable {
             }
         }   
         catch (IOException e) {
-        }
+        }//end try-catch
             
         
             
-        }
+    }//end save
     //Method to restore saved choices with switch statements
     public void restore() throws IOException{
         
@@ -170,7 +172,7 @@ public class SceneController implements Initializable {
                 case "Strawberry":
                     rbStraw.setSelected(true);
                     break;
-            }
+            }//end flavor switch
             switch (svdOrd.get(1)){
                 case "With_Nuts":
                     cbNuts.setSelected(true);
@@ -178,7 +180,7 @@ public class SceneController implements Initializable {
                 case "Without_Nuts":
                     cbNuts.setSelected(false);
                     break;
-            }
+            }//end nuts switch
             switch (svdOrd.get(2)){
                 case "With_Cherries":
                     cbCherries.setSelected(true);
@@ -186,7 +188,7 @@ public class SceneController implements Initializable {
                 case "Without_Cherries":
                     cbCherries.setSelected(false);
                     break;
-            }
+            }//end cherries switch
         } 
         //File Not Found Error Alert
         catch (FileNotFoundException ex) {
@@ -196,11 +198,11 @@ public class SceneController implements Initializable {
             alert.setHeaderText("Error Encountered:");
             alert.setContentText("java.io.FileNotFoundException:\n"+ex.getLocalizedMessage());
             alert.showAndWait();
-        }
-    }
+        }//end catch
+    }//ent restore
     public static void main(String[] args){
         
-    }
+    }//end main
 }
     
 
