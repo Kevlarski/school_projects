@@ -10,8 +10,7 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
-/**
- *
+/*
  * @author kevin
  */
 public class IceCream extends Application {
