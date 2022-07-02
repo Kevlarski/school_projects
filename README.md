@@ -1,13 +1,14 @@
-# school_projects
-**Assigned projects during Software Engineering degree path at Oakland Community College**
+<h1>School Projects</h1>
+<h3>Assigned projects during Software Engineering degree path at Oakland Community College</h3>
 
 
 Various assignments and projects from the following classes:
+<ul>
+<li>Introduction to Programming (Java)</li>
 
---Introduction to Programming (Java)
+<li>HTML5 Programming</li>
 
---HTML5 Programming
+<li>Object Oriented Programming (Java)</li>
 
---OOP Java
-
---Data Structures & Algorithms
+<li>Data Structures & Algorithms</li>
+<ul>
