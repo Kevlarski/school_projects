@@ -1,0 +1,22 @@
+body{background-color:#ffc;
+}
+p{font:Times New Roman;
+	font-size:12;
+	colot:darkGreen;
+}
+h2{text-align:center;}
+.heading{font-family:"Times New Roman", Times, serif;
+	font-size:18px;
+	texxt-align:center;
+	color:#660033;
+}
+.lt{float:left;
+	margin-right:10px;
+	margin-top:5px;
+}
+.rt{float:right;
+	margin-right:10px;
+	margin-left:10px;
+}
+	
+	

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*{box-sizing:border-box;}
+input[type="text"],input[type="email"],input[type="url"],input[type="tel"],input[type="number"]{width:100%;
+	padding:20px 20px;
+	margin:8px 0;
+	display:block;
+	border:3px solid green;
+	border-radius:10px;
+}
+input[type="submit"], input[type="reset"]{width:45%;
+	background-color:yellow;
+	color:red;
+	padding:14px 20px;
+	margin-right:10px;
+	margin-left:30px;
+	margin-top:20px;
+	border:5px double red;
+	border-radius:4px;}
+input[type="submit"]:hover{background-color:#45a049;
+	color:white;}
+h3{color:purple;
+	text-align:center;
+	font-style:italic;}
+div{border-radius:5px;
+	background-color:burlywood;
+	padding:20px;}
+</style>
+</head>
+<body>
+<h3>Fun with Form Controls</h3>
+<div>
+	<form method="post" action="mailto:mclaughlin.kevin@student.oaklandcc.edu">
+		<fieldset>
+			<legend>Your Personal Information</legend>
+			<lable for="fname">First Name</lable>
+			<input type="text" id="fname" name="firstName" placeholder="Your First Name"/><br>
+			<lable for="lname">Last Name</lable>
+			<input type="text" id="lname" name="lastName" placeholder="Your Last Name"><br>
+			<lable for="zip">Zip Code</lable>
+			<input type="text" id="zip" name="zip" placeholder="Zip Code" title="Must be 5 digits (99999) or 5 digits - 4 digits (99999-8888)"; pattern="\d{5}([-]\d{4})?"; required><br>
+			<lable for="email">Your Email</lable>
+			<input type="email" id="email" required><br>
+			<lable for="link">Your Website</lable>
+			<input type="url" id="link" list="links" pattern="https?://.+"><br>
+			<lable for="phone">Your Phone Number</lable>
+			<input type="tel" id="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required><br><br>
+		</fieldset>
+		<h3>Investment Example</h3>
+		<lable for="investment">Monthly Investment</lable>
+		<input type="number" id="investment" min="100" step="100" value="300">
+		<h3>Slider Example</h3>
+		<lable for="book">Rate the book from 1 to 5:</lable>
+		<input type="range" id="book" min="1" max="5" step="1"><br><br>
+		<h3>Color Example</h3>
+		<input type="color" value="#facd8a">
+		<h3>Dates and Times Example</h3>
+		<fieldset>
+			<legend>Different Dates and Times</legend>
+			Date and Time:&nbsp;&nbsp;
+				<input type="datetime" id="datetime"><br><br>
+			Local date and time:&nbsp;&nbsp;
+				<input type="datetime-local" is="datetime-local"><br><br>
+			Month:&nbsp;&nbsp;
+				<input type="month" id="month"><br><br>
+			Week:&nbsp;&nbsp;	
+				<input type="week" id="week"><br><br>
+			Time:&nbsp;&nbsp;
+				<input type="time" id="time"><br><br>
+			Date:&nbsp;&nbsp;
+				<input type="date" id="date">
+		</fieldset>
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+	</form>
+</div>
+</body>
+</html>
