@@ -11,4 +11,14 @@ Various assignments and projects from the following classes:
 <li>Object Oriented Programming (Java)</li>
 
 <li>Data Structures & Algorithms</li>
+
+<li>Software Engineering</li>
+
+<li>Object Oriented Programming (C++)</li>
+
+<li>Web Systems Development</li>
+
+<li>JavaScript Programming for Web</li>
+
+<li>Android Mobile App Development</li>
 <ul>
