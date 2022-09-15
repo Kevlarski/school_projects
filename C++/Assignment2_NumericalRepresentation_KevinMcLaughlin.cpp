@@ -2,9 +2,11 @@
 
  Title:       Assignment 2 - Numerical Representation
  Course:      CIS 2252
- Author:      <First & Last Name>
- Date:        < / / >
- Description: This program ....
+ Author:      <Kevin McLaughlin>
+ Date:        < 09/13 /22 >
+ Description: This program takes 2 integers as input and then outputs
+ 			the range of values as spelled out strings. If the values exceed
+ 			9, corresponding "even" and "odd" will print instead.
 
  ==========================================================
 */
