@@ -6,13 +6,13 @@ Various assignments and projects from the following classes:
 <ul>
 <li>Introduction to Programming (Java)</li>
 
-<li>HTML5 Programming</li>
-
 <li>Object Oriented Programming (Java)</li>
 
 <li>Data Structures & Algorithms</li>
 
 <li>Software Engineering</li>
+
+<li>Android Mobile App Development</li>
 
 <li>Object Oriented Programming (C++)</li>
 
@@ -20,5 +20,5 @@ Various assignments and projects from the following classes:
 
 <li>JavaScript Programming for Web</li>
 
-<li>Android Mobile App Development</li>
+<li>HTML5 & CSS Programming</li>
 <ul>
